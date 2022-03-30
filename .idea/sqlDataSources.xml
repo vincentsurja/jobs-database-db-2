@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DdlMappings">
+    <mapping uuid="fd7001e0-5c9c-4abd-8a81-07d286f61924" name="postgres@localhost Mapping">
+      <data-sources db="d36a775d-7fea-4cc9-9784-a0cedf3d5523" ddl="6d29761d-7428-46f3-9ed9-2ca71ccc63ed" />
+      <scope>
+        <node kind="database" qname="postgres" />
+      </scope>
+    </mapping>
+    <mapping uuid="98e56f77-2719-49b6-8c07-414857f5d57d" name="DDL data source Mapping">
+      <data-sources db="bdb0f0ee-f8e9-4858-a357-b8d60b595155" ddl="99351faf-6184-4810-ae0b-39c0a24f7c27" />
+    </mapping>
+    <mapping uuid="1013cb78-de1a-4c5c-ad16-fdf8e49feaaf" name="jobs-database-ddl Mapping">
+      <data-sources db="d36a775d-7fea-4cc9-9784-a0cedf3d5523" ddl="ac053ec8-78dd-4622-9b2d-929739e0d88c" />
+      <scope>
+        <node kind="database" qname="postgres">
+          <node kind="schema" qname="jobs-database-schema" />
+        </node>
+      </scope>
+    </mapping>
+  </component>
+  <component name="SqlDataSourceStorage">
+    <option name="dataSources">
+      <list>
+        <State>
+          <option name="id" value="ac053ec8-78dd-4622-9b2d-929739e0d88c" />
+          <option name="name" value="jobs-database-ddl" />
+          <option name="urls">
+            <array>
+              <option value="file://$USER_HOME$/jobs-database.sql" />
+            </array>
+          </option>
+        </State>
+      </list>
+    </option>
+  </component>
+</project>
